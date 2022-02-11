@@ -1,0 +1,22 @@
+{
+  "name": "thegraph-multi-network",
+  "version": "1.0.0",
+  "description": "Multi networks config for TheGraph",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "https://github.com/AlexVorobiov",
+  "license": "MIT",
+  "dependencies": {
+    "cli-spinners": "^2.6.0",
+    "colors": "^1.4.0",
+    "inquirer": "^8.1.0",
+    "mustache": "^4.2.0",
+    "ora": "^5.4.0",
+    "yargs": "^17.3.1"
+  },
+  "bin": {
+    "graph-deploy": "cli.js"
+  }
+}
